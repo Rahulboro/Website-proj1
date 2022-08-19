@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Orbitron:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Orbitron:wght@400;500;700;800;900&display=swap');
+
+
+
+body{
+  background-color: #f5f5f5;
+  margin: 10px;
+  font-family: Orbitron;
+}
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  font-weight:500;
+}
+.list-item{
+  margin: 30px;
+}
+.list-item:hover{
+  text-decoration-line:underline;
+
+}
+.button-group{
+  display: flex;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.search-icon{
+  margin-right: 20px;
+}
+.nav-button {
+  box-shadow: 10px 5px 5px #242B2E;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0.6em 0.6em;
+}
+
+ /* END OF THE NAV SECTION  */
+
+/* START OF HERO BANNER  */
+.square {
+  position: absolute;
+  height: 500px;
+  top: 390px;
+  left: 165px;
+  z-index: -1;
+}
+.star {
+  position:absolute;
+  right: 80px;
+  top: 190px;
+}
+.globe {
+  position: relative;
+  left: 50%;
+}
+.hero-container-right{
+  position: absolute;
+  top: 280px;
+  right: 0;
+  width: 55%;
+}
+.hero-heading {
+  font-weight: 700;
+  word-spacing: 9px;
+  font-size: 50px;
+}
+.hero-description{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  height: 50px;
+  width: 700px;
+}
+.button-email {
+  box-shadow: 10px 5px 5px #242B2E;
+  padding: 6px 20px; 
+  border-radius: 0.6em 0.6em;
+  position: absolute;
+  top: 300px; left: 190px;
+  font-weight: 600;
+}
+.button-join{
+  background-color: #242B2E;
+  color: #f5f5f5;
+  padding: 6px 20px; 
+  border-radius: 0.6em 0.6em;
+  position: absolute;
+  top: 300px; right: 190px;
+  font-weight: 600;
+}
+.contact-heading {
+  position:absolute;
+  top:410px;
+  right: 330px;
+}
+.icons {
+  position: absolute;
+  top: 450px;
+  left: 259px;
+}
+img {
+  padding: 8px;
+}
